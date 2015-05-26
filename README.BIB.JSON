@@ -1,0 +1,1 @@
+python bibtex.py ~/latex/diss-mab/bibliography/mab1.bib > mab1.json
