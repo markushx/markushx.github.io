@@ -14,8 +14,9 @@
       }
     </style>
     <!-- Video.js HTML5 Shiv needs to be in head unfortunately. -->
+    <!--
     <link href="http://vjs.zencdn.net/4.0/video-js.css" rel="stylesheet">
-    <script src="http://vjs.zencdn.net/4.0/video.js"></script>
+    <script src="http://vjs.zencdn.net/4.0/video.js"></script>-->
   </head>
 
   <body>
@@ -29,7 +30,7 @@
               <li><a href="#contact">Contact</a></li>
               <li><a href="#education">Education</a></li>
               <li><a href="#work">Work Experience</a></li>
-              <li><a href="#video">Video</a></li>
+<!--              <li><a href="#video">Video</a></li>-->
               <li><a href="#publications">Publications</a></li>
               <li><a href="#supervised">Supervision</a></li>
               <li><a href="#demo">Live Demo</a></li>
@@ -88,7 +89,7 @@
 	      <div class="org">ComNets, TZI, University Bremen</div>
 	      <a class="email" href="mailto:mab@comnets.uni-bremen.de">mab@comnets.uni-bremen.de</a>
 	      <div class="adr">
-		<span class="locality">Bremen</span>, 
+		<span class="locality">Bremen</span>,
 		<span class="country-name">Germany</span>
 	      </div>
 	      <div class="tel"><i class="fa fa-phone-sign"></i> +49 421 2403712</div>
@@ -196,6 +197,7 @@
 	</div>
       </div>
 
+<!--
       <div class="row">
 	<div class="span12">
           <h2><i class="fa fa-play-circle"></i> <a name="video" style="padding-top: 40px; margin-top: -40px;"></a>Intelligent Container Project Video </h2>
@@ -204,10 +206,10 @@
 		 controls preload="auto" width="640" height="360"
 		 poster="./media/video/IC_eng_070613-Computer.jpg"
 		 data-setup='{"example_option":true}'>
-	    <!--<source src="./media/video/IC_eng_070613-Computer.m4v" type='video/mp4' />-->
+	    <-<source src="./media/video/IC_eng_070613-Computer.m4v" type='video/mp4' />->
 	    <source src="./media/video/IC_eng_070613-Computer.webm" type='video/webm' />
 	    <source src="./media/video/IC_eng_070613-Computer.ogv" type='video/ogg' />
-            <!--<p>Unfortunately your browser does not support the HTML5 &lt;video&gt; tag.</p>-->
+            <-<p>Unfortunately your browser does not support the HTML5 &lt;video&gt; tag.</p>->
 	  </video>
 	</div>
       </div>
@@ -221,14 +223,14 @@
 		 controls preload="auto" width="640" height="360"
 		 poster="./media/video/Standard_Protocols.jpg"
 		 data-setup='{"example_option":true}'>
-	    <!--<source src="./media/video/Standard_Protocols.mp4" type='video/mp4' />-->
+	    <-<source src="./media/video/Standard_Protocols.mp4" type='video/mp4' />->
 	    <source src="./media/video/Standard_Protocols.webm" type='video/webm' />
 	    <source src="./media/video/Standard_Protocols.ogv" type='video/ogg' />
-            <!--<p>Unfortunately your browser does not support the HTML5 &lt;video&gt; tag.</p>-->
+            <-<p>Unfortunately your browser does not support the HTML5 &lt;video&gt; tag.</p>->
 	  </video>
 	  <a href="http://www.sfb637.uni-bremen.de/flyer.html">More Videos of the CRC 637 project.</a>
 	</div>
-      </div>
+      </div> -->
 
       <div class="row">
 	<div class="span12">
@@ -348,20 +350,19 @@
 
 	</div>
       </div>
-
+<!--
       <div class="row">
 	<div class="span12">
           <h2><i class="fa fa-stethoscope"></i><a name="demo" style="padding-top: 40px; margin-top: -40px;"></a> Live Measurements from our Wireless Sensor Network</h2>
           <p><img src="https://api.xively.com/v2/feeds/1849788556/datastreams/Temperature.png?width=730&height=250&colour=%23f15a24&duration=6hours&legend=%C2%B0C&title=Temperature%20%40%20coap%3A%2F%2F%5B2001%3A638%3A708%3A1156%3A%3A3%5D%2Fst&stroke_size=2&show_axis_labels=true&detailed_grid=true&scale=manual&min=15&max=35&timezone=Berlin"></p>
-
-          <!--<p><a class="btn" href="#">View details &raquo;</a></p>-->
+          <-<p><a class="btn" href="#">View details &raquo;</a></p>->
 	</div>
       </div>
-
+-->
       <hr>
 
       <footer>
-	<p>&copy; Markus Becker 2013-2014</p>
+	<p>&copy; Markus Becker 2013-2015</p>
       </footer>
 
     </div>
@@ -502,7 +503,7 @@
                         } else {
                             line += thevalue;
                         }
-                        display[lineitem][object]['post'] 
+                        display[lineitem][object]['post']
                             ? line += display[lineitem][object]['post'] : line += ' ';
                     }
                 }
@@ -529,4 +530,3 @@
 
   </body>
 </html>
-
